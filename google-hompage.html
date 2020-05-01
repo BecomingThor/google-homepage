@@ -14,7 +14,7 @@
                     &nbsp;
                     <a href="https://store.google.com/DE/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=de-DE">Store</a>
                 </div>
-                <div style="top:0;left:0;right:0;width:100%; min-width: 231px;" id="Menu_Anmelden"> <!--right top corner: Gmail, Bilder, Menu, ANmelden-->
+                <div id="Menu_Anmelden"> <!--right top corner: Gmail, Bilder, Menu, ANmelden-->
                     <div id="Gmail_Bilder"> <!--Gmail, Bilder-->
                         <div id="Gmail"> <!--Gmail-->
                             <a href="">Gmail</a>
@@ -23,12 +23,12 @@
                             <a href="">Bilder</a>
                         </div>
                     </div>
-                    <div style="min-width: 133px;" ><!--Menu, Anmelden-->
-                        <div> <!--Menu-->
-                            <a href="" title="Google-Apps" role="button" tabindex="0" aria-expanded="false"></a> <!--how does aria work?-->
+                    <div style="min-width: 133px;" id="ga_su" ><!--Menu, Anmelden-->
+                        <div clas="divMenu"> <!--Menu-->
+                            <a class="Menu" href="" title="Google-Apps" role="button" tabindex="0" aria-expanded="false"></a> <!--how does aria work?-->
                         </div>
-                        <div> <!--Anmelden-->
-                            <a href="">Anmelden</a>
+                        <div id="su_div"> <!--Anmelden-->
+                            <a id="su_link" href="">Anmelden</a>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,8 @@
             </div>
 
             <div id="searchform">
-                <div></div>
+                <form style="overflow: visible" role="search" id="searchbar"></form>
+                
             </div>
         </div>
     </body>
