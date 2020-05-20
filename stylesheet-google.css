@@ -9,7 +9,7 @@ svg {
     width: 100%;
 }
 a:visited{
-    color: black;
+    text-decoration-color: none;
 }
 a {
     text-decoration: none;
@@ -95,6 +95,12 @@ input {
     margin-right: 30px;
     margin-left: 15px;
 }
+a.lct:visited {
+    color: black;
+}
+a.lct {
+    color: black;
+}
 /*IDs Main View*/
 #main_logo_box {
     display: flex;   
@@ -137,4 +143,45 @@ input {
     width: 571px;
     height: 70px;
     padding-top: 18px;
+}
+#footer {
+    position: fixed;
+    margin-top: 185px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+#footertop {
+    background-color: #f2f2f2;
+    border: solid 1px #e4e4e4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: rgba(0,0, 0, .54);
+
+}
+#footerbot {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #e4e4e4;
+    padding: 15px 0 15px 0;
+    background-color: #f2f2f2;
+
+}
+.Footer {
+    display: flex;
+    flex-direction: row;
+    color: rgba(0, 0, 0, .54);
+    background-color: #f2f2f2;
+    font-size: 15px;
+}
+#footerbotR {
+    position: fixed;
+    right: 0;
+}
+a.lcf:visited {
+    color: rgba(0, 0, 0, .54);
+}
+a.lcf {
+   color: rgba(0, 0, 0, .54);
 }
